@@ -25,7 +25,7 @@ int main (int argc, char *argv[])
       double f_x_ = polionimo( x, a_0, a_1, a_2, a_3, a_4, a_5);
       double par_f= paragogos( x,  a_1, a_2, a_3, a_4, a_5);
 
-      if ( fabs(par_f) == 0 ) {
+       if ( fabs(par_f) == 0 ) {
             printf("nan\n"); /*ΓΙΑ ΟΤΑΝ ΑΠΟΚΛΗΝΕΙ Ο ΑΛΓΟΡΙΘΜΟΣ */
             return 0.0;
     }
