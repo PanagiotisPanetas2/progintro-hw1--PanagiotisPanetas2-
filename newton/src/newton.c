@@ -2,8 +2,7 @@
 # include <stdlib.h>
 # include <math.h>
 
-int main (int argc, char *argv[])
- {
+int main (int argc, char *argv[]){
  if (argc != 8) {
          printf("Usage: %s <arg1> <arg2> <arg3> <arg4> <arg5> <arg6> <arg7>\n", argv[0]);
          return 1;  
